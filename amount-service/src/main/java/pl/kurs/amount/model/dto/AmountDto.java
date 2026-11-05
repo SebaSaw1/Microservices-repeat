@@ -1,4 +1,4 @@
 package pl.kurs.amount.model.dto;
 
-public class AmountDto {
+public record AmountDto(int sum, String instance) {
 }
